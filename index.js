@@ -42,7 +42,7 @@ program.command('config')
         await setKey();
         break;
       case 'Delete key':
-        config.deleteKey();
+        deleteKey();
         break;
     }
   });
