@@ -51,7 +51,7 @@ program.command('chat')
   .description('Start chatting')
   .action(async () => {
     if (!getKey()) {
-      console.log(style.error('API key not found. Run setup first!'));
+      console.log(style.error + 'API key not found. Run setup first!');
       return;
     }
 
